@@ -1,0 +1,23 @@
+{
+  "name": "domain-checker",
+  "version": "1.0.0",
+  "description": "Domain name whois checker and notifier",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cpx \"custom_types/@types/**/*\" node_modules/@types",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./tsconfig.json",
+    "runnode_debug": "node %NODE_DEBUG_OPTION% bin/bin-nodejs/index.js"
+  },
+  "author": "SONIC3D",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^6.0.85",
+    "@types/shelljs": "^0.7.4",
+    "cpx": "^1.5.0",
+    "osx-notifier": "^0.2.2",
+    "shelljs": "^0.7.8",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {}
+}

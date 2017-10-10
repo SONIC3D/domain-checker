@@ -1,0 +1,19 @@
+{
+  "name": "@types/osx-notifier",
+  "description": "TypeScript definitions for osx-notifier",
+  "license": "MIT",
+  "author": {
+    "name": "ZongJing Lu"
+  },
+  "contributors": [
+    {
+      "name": "ZongJing Lu",
+      "url": "https://github.com/SONIC3D"
+    }
+  ],
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "main": "",
+  "version": "0.2.2"
+}
